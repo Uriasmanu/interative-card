@@ -1,0 +1,138 @@
+body{
+    background: #191819;
+}
+
+.card{
+    background: #262d38;
+    width: 389px;
+    height: 389px;
+    margin: auto;
+    margin-top: 13%;
+    border-radius: 21px;
+}
+
+
+.star{
+    background: #2f3744;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+.icon-star {
+    position: relative;
+    top: 17px;
+    left: 16px;
+}
+
+.text{
+    position: relative;
+    top: 35px;
+    left: 23px;
+    width: 348px;
+    font-size: 17px;
+    
+}
+h2{
+    color: #fff;
+}
+p{
+    color: #a9a9aa;
+}
+
+input{
+    display: none;
+}
+
+label{
+    cursor: pointer;
+    display: inline-grid;
+    background: #2f3744;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    color: #a9a9aa;
+    margin: 8px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.grade:hover{
+    cursor: pointer;
+    background: orange;
+    color: white;
+}
+
+.submit {
+    position: relative;
+    top: 46px;
+    left: 26px;
+    background: orange;
+    width: 86%;
+    height: 49px;
+    border-radius: 24px;
+    font-size: 19px;
+    color: #fff;
+    border: solid 2px black; 
+
+}
+.submit:hover{
+    cursor: pointer;
+    background: white;
+    color: orange;
+}
+
+.attribution{
+    position: absolute;
+    top: 96%;
+    left: 32%;
+}
+
+.avalia{
+    display: flex;
+    position: relative;
+    top: 183px;
+    left: 89px;
+    text-align: center;
+    color: orange;
+    background: #2f3744;
+    width: 194px;
+    height: 30px;
+    border-radius: 35px;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.obrig{
+    position: relative;
+    top: 144px;
+    left: 96px;
+    font-size: 31px;
+    color: white;
+}
+
+.agrad{
+
+    position: relative;
+    top: 138px;
+    left: -2px;
+    width: 344px;
+    text-align: center;
+}
+
+.imgObg{
+    position: relative;
+    background-image: url(illustration-thank-you.svg);
+    width: 162px;
+    height: 108px;
+    top: -160px;
+    left: 95px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+  
+  <main>
+    <div class="card">
+
+    <div class="star" id="starss">
+      <img class="icon-star" id="star" src="/images/icon-star.svg" alt="icone de estrela" srcset="">
+      
+    </div>
+
+    <p id="miniText"> </p>
+
+    <div class="text">
+      <h2 id="titulo">How did we do?</h2>
+      <p id="sub-text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
+    </div>
+    
+    <div class="score" id="score">
+
+      
+        <input type="radio" name="nota" id="nota1" checked>
+        <label class="grade" for="nota1">1</label>
+
+        <input  type="radio" name="nota" id="nota2" checked>
+        <label class="grade" for="nota2">2</label>
+
+        <input  type="radio" name="nota" id="nota3" checked>
+        <label class="grade" for="nota3">3</label>
+
+        <input type="radio" name="nota" id="nota4" checked>
+        <label class="grade" for="nota4">4</label>
+
+        <input  type="radio" name="nota" id="nota5" checked>
+        <label class="grade" for="nota5">5</label>
+
+    </div>
+
+    <div id="imgg"></div>
+
+    <div>
+      <button class="submit" id="submit" onclick="submit()" type="submit">Submit</button>
+    </div>
+
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Manoela Urias</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
